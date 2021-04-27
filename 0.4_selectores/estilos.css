@@ -1,0 +1,65 @@
+/* SELECTORES */
+
+/* selectores universales */
+/* *{
+
+} */
+/* Selector de etiquetas */
+/* nav{
+    background-color: black;
+} */
+
+/* Selectores de clases */
+/* .alex{
+    width: 100px;
+} */
+
+/*Selectores de identificadores.*/
+/* #section{
+    background-color: yellow;
+} */
+
+/*Selectores de emoticones*/
+/* .😙{
+    background-color: yellowgreen;
+} */
+
+/*Selectores Por atributos*/
+
+/* palabra al inicio */
+/* [pato^='hola']{
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+} */
+
+/* palabra al final */
+/* [href$='mg']{
+    text-shadow: 5px 5px 10px red;
+} */
+
+/* debe contener el elemento no importar el lugar */
+/* [href*='algo']{
+
+} */
+
+/*Selectores Combinadores */
+/* h2,a,p{
+    color: indigo;
+} */
+
+/* Selectores descendientes */
+/* .contenedor nav a{
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+} */
+/*Selector de comparacion directo hijo*/
+/* .contenedor2 > a{
+    font-size: 100px;
+}
+
+/*Selector de comparacion interno*/
+/* .contenedor2 a{
+    color: red;
+}  */
