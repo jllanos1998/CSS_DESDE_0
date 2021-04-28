@@ -24,3 +24,9 @@ h1,h2,h3{}
 
 **Combinador descendientes**
 * selecciona a los elementos que son descendientes del elemetno 
+
+**selector adyacente**
+* h2+p 
+
+**Selector que selecciona a todos los hermano**
+* h2~p

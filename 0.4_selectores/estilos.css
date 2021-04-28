@@ -63,3 +63,25 @@
 /* .contenedor2 a{
     color: red;
 }  */
+
+/* .contenedor a {
+    text-decoration: none;
+    color:red
+}
+
+aside p{
+    color: purple;
+    font-size:50px;
+} */
+
+/*Selector con hermano adyacente solamente selecciona al siguiente*/
+/* .parrafos h3 + p{
+    font-size: 40px;
+    color: black;
+    text-shadow: 3px 3px 9px white;
+} */
+
+/* .parrafos h3 ~ p{
+    font-size: 40px;
+    color: red;
+} */
