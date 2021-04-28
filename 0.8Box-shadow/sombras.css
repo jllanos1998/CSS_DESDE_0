@@ -1,0 +1,20 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+box-shadow: 
+.caja{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    box-shadow: 100px 100px red,
+    200px 0px black,
+    300px 100px red,
+    400px 0px black,
+    500px 100px red,
+    600px 0px black,
+    700px 100px red,
+    800px 0px black,
+    900px 100px red;
+} */

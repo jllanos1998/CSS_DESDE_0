@@ -17,3 +17,16 @@
 .title{
     text-align: center;
 }
+
+
+/* .color{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(50, 50, 255,.3);
+    transition: background-color 0.5s ease,trasform 1s ease;
+}
+
+.color:hover{
+    background-color: rgba(50, 50, 255,1);
+    transform: scale(2) rotate(0deg);
+} */
