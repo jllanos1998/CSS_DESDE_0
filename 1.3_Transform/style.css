@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  background-color: blue;
+}
+
+.element {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  transition: transform 1s ease;
+  transform-origin: right bottom;
+}
+
+.fixed {
+  position: fixed;
+  color: black;
+  font-size: 30px;
+}
+
+.container:hover .element {
+  /* transform: translate(250px, 250px) scaleX(3) rotate(1turn) */
+  transform: skew(50grad, 50grad); /* Solo trabaja con grados*/
+
+  /* Para posicionar la caja en el eje x o y */
+  /* transform: translateX(300px); */
+  /* transform: translateY(100%); */
+  /* transform: translate(100px, 50px); */
+
+/* Es para dar la vuelta al elemento*/
+  /* transform: rotate(); */
+
+  /*
+  grados: 0-360 deg
+  radians: 0-6.28319 red
+  gradians: 0-400 grad
+  turn: 0-1 turn
+  */
+  
+}
